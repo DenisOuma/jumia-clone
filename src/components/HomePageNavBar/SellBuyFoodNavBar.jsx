@@ -18,8 +18,7 @@ export const SellBuyFoodNavBar = () => {
 				<span className="text-secondary-text-color ml-1 cursor-pointer font-semibold">
 					FOOD
 				</span>
-
-				<span className="flex text-gray-text-color ml-2">
+				<span className="flex text-gray-text-color ml-2 cursor-pointer">
 					<Icon icon="mdi:shield-search" color="#FF9900" height="15" />
 					PAY
 				</span>
