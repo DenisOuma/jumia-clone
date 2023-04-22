@@ -4,5 +4,6 @@ img {
 	height: 400px;
 	margin-top: 20px;
 	width: 670px;
+	cursor: pointer;
 	/* object-fit: cover; */
 }
