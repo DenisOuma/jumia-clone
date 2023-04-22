@@ -7,7 +7,7 @@ import { Button } from "../Button";
 
 export const PrimeNavbar = () => {
 	return (
-		<div className="bg-primary-page-color shadow-lg">
+		<div className="bg-primary-page-color shadow-lg py-1">
 			<PageContainerPosition>
 				<Logo />
 				<div className="flex items-center">
@@ -18,7 +18,7 @@ export const PrimeNavbar = () => {
 						<Input
 							inputType="text"
 							placeholder="Search products, brands and categories"
-							className="w-[28rem] pl-7 "
+							className="w-[32rem] pl-7 "
 						/>
 					</div>
 					<Button
@@ -31,38 +31,38 @@ export const PrimeNavbar = () => {
 						<Icon
 							icon="clarity:avatar-line"
 							color="#313133"
-							height="25"
-							className="pr-[3px] "
+							height="26"
+							className="mr-[4px] "
 						/>
 						Account
 						<Icon
 							icon="material-symbols:keyboard-arrow-down-rounded"
 							color="#313133"
 							height="20"
-							className="px-[3px]"
+							className="mx-[4px]"
 						/>
 					</Button>
 					<Button primary>
 						<Icon
 							icon="material-symbols:help-outline"
 							color="#313133"
-							height="25"
-							className="px-[3px]"
+							height="26"
+							className="mx-[4px]"
 						/>
 						Help
 						<Icon
 							icon="material-symbols:keyboard-arrow-down-rounded"
 							color="#313133"
 							height="20"
-							className="px-[3px]"
+							className="mx-[4px]"
 						/>
 					</Button>
 					<Button primary>
 						<Icon
 							icon="ic:outline-shopping-cart"
 							color="#313133"
-							height="25"
-							className="px-[3px]"
+							height="26"
+							className="mx-[4px]"
 						/>
 						Cart
 					</Button>
