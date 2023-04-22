@@ -2,7 +2,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 export const SellBuyFoodNavBar = () => {
 	return (
-		<div className="flex items-center justify-between py-1.5 container w-5/6  mx-auto">
+		<div className="flex items-center justify-between py-1.5 container max-w-6xl  mx-auto">
 			<div className="flex items-center cursor-pointer hover:underline hover:decoration-secondary-text-color ">
 				<Icon
 					icon="material-symbols:stars-rounded"
