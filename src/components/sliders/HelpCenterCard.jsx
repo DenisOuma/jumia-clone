@@ -24,7 +24,10 @@ export const HelpCenterCard = () => {
 
 	const helpMoreOptions = moreAddLink.map((link) => {
 		return (
-			<div key={link.titleLink} className="flex items-center p-2">
+			<div
+				key={link.titleLink}
+				className="flex items-center p-2 cursor-pointer"
+			>
 				<img
 					src={link.iconlink}
 					alt={link.descriptionLink}
