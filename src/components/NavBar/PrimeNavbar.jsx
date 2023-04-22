@@ -27,12 +27,12 @@ export const PrimeNavbar = () => {
 					>
 						Search
 					</Button>
-					<Button className="">
+					<Button primary className="pl-2">
 						<Icon
 							icon="clarity:avatar-line"
 							color="#313133"
 							height="25"
-							className="pr-[3px]"
+							className="pr-[3px] "
 						/>
 						Account
 						<Icon
@@ -42,7 +42,7 @@ export const PrimeNavbar = () => {
 							className="px-[3px]"
 						/>
 					</Button>
-					<Button className="">
+					<Button primary>
 						<Icon
 							icon="material-symbols:help-outline"
 							color="#313133"
@@ -57,7 +57,7 @@ export const PrimeNavbar = () => {
 							className="px-[3px]"
 						/>
 					</Button>
-					<Button className="">
+					<Button primary>
 						<Icon
 							icon="ic:outline-shopping-cart"
 							color="#313133"
