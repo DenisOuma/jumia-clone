@@ -6,7 +6,7 @@ export const AddvertBarTop = () => {
 			<img
 				src="https://ke.jumia.is/cms/2023/STB/KE_FreeDelivery_1122_STB.gif"
 				alt=""
-				className="max-w-6xl h-[3.5rem] mt-0"
+				className="w-5/6 max-w-6xl h-[3.5rem] mt-0"
 			/>
 		</div>
 	);
