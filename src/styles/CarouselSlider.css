@@ -1,0 +1,8 @@
+img {
+	max-width: none !important;
+	border-radius: 5px;
+	height: 400px;
+	margin-top: 20px;
+	width: 670px;
+	/* object-fit: cover; */
+}

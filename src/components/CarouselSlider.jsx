@@ -1,9 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Carousel from "react-image-carousel";
+import "../styles/CarouselSlider.css";
 export const CarouselSlider = ({ images }) => {
 	return (
 		<div className="my-carousel">
-			<Carousel images={images} thumb={false} loop={true} autoplay={2000} />
+			<Carousel
+				// className="w-2/4"
+				images={images}
+				thumb={false}
+				loop={true}
+				autoplay={20000}
+			/>
 		</div>
 	);
 };
