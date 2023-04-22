@@ -10,7 +10,7 @@ export const PrimeNavbar = () => {
 		<div className="bg-primary-page-color shadow-lg">
 			<PageContainerPosition>
 				<Logo />
-				<div className="flex items-center justify-between">
+				<div className="flex items-center">
 					<div className="relative">
 						<span className="absolute inset-y-0 left-0 flex items-center pl-2">
 							<Icon icon="ic:baseline-search" color="#75757A" height="20" />
@@ -18,7 +18,7 @@ export const PrimeNavbar = () => {
 						<Input
 							inputType="text"
 							placeholder="Search products, brands and categories"
-							className="w-[24rem] pl-7 "
+							className="w-[28rem] pl-7 "
 						/>
 					</div>
 					<Button
