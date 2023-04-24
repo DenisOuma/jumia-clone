@@ -3,6 +3,8 @@ import { AddsSalesTitle } from "../AddsSalesTitle";
 import AddsTopTitleDescription from "../AddsTopTitleDescription";
 import { Icon } from "@iconify/react";
 import { Button } from "../Button";
+import { CountdownTimer } from "../CountdownTimer";
+
 function FlashSalesSliderAdd() {
 	return (
 		<div className="w-full mt-4 border-rounded">
@@ -12,8 +14,7 @@ function FlashSalesSliderAdd() {
 						<Icon icon="ion:pricetags-sharp" color="#f90" height="25" />
 						<span className="ml-2">Flash Sales</span>
 					</div>
-					<div className="">Time Left</div>
-
+					<CountdownTimer />
 					<Button className="uppercase">
 						See All
 						<Icon icon="material-symbols:chevron-right-rounded" height="25" />
