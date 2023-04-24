@@ -5,8 +5,4 @@ img {
 	margin-top: 20px;
 	width: 670px;
 	cursor: pointer;
-	/* object-fit: cover; */
-}
-.image-border {
-	border-radius: 5px !important;
 }
