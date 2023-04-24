@@ -31,7 +31,7 @@ export const MultiImageCouresel = () => {
 	});
 	return (
 		<div className="bg-primary-page-color p-2  max-w-6xl">
-			<div className="w-3"></div>
+			<div className="w-3 text-[1px] text-primary-page-color">s</div>
 			<Carousel responsive={responsive}>{imageProducts}</Carousel>
 		</div>
 	);
