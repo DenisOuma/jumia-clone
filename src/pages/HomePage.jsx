@@ -19,10 +19,10 @@ export const HomePage = () => {
 				<MultiImageCouresel />
 			</PageContainerPosition>
 			<PageContainerPosition>
-				<FlashSalesSliderAdd />
+				<LastSearchedSliderAdd />
 			</PageContainerPosition>
 			<PageContainerPosition>
-				<LastSearchedSliderAdd />
+				<FlashSalesSliderAdd />
 			</PageContainerPosition>
 		</div>
 	);

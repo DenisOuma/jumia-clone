@@ -47,20 +47,20 @@ export const lastSearched = [
 		price: "Ksh 245,000",
 		cost: "Ksh 255,000",
 	},
-	{
-		id: 6,
-		image:
-			"https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/4141521/1.jpg?7780",
-		name: "Generic Othopendic Office Chair",
-		price: "Ksh 24,399",
-		cost: "Ksh 26,999",
-	},
-	{
-		id: 7,
-		image:
-			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/10/799296/1.jpg?2616",
-		name: "Ajab Ajab Maize Meal – 2 Kg",
-		price: "Ksh 26,699",
-		cost: "Ksh 44,999",
-	},
+	// {
+	// 	id: 6,
+	// 	image:
+	// 		"https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/4141521/1.jpg?7780",
+	// 	name: "Generic Othopendic Office Chair",
+	// 	price: "Ksh 24,399",
+	// 	cost: "Ksh 26,999",
+	// },
+	// {
+	// 	id: 7,
+	// 	image:
+	// 		"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/10/799296/1.jpg?2616",
+	// 	name: "Ajab Ajab Maize Meal – 2 Kg",
+	// 	price: "Ksh 26,699",
+	// 	cost: "Ksh 44,999",
+	// },
 ];
