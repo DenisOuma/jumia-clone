@@ -25,7 +25,7 @@ export const MultiImageCouresel = () => {
 	const imageProducts = imagesList.map((image) => {
 		return (
 			<div key={image}>
-				<img src={image} alt="Option" className="h-[10rem] w-[10rem] mt-0" />
+				<img src={image} alt="Option" className="h-[8rem] w-[8rem] mt-0" />
 			</div>
 		);
 	});
