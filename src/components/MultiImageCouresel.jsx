@@ -22,21 +22,16 @@ const responsive = {
 	},
 };
 export const MultiImageCouresel = () => {
+	const imageProducts = imagesList.map((image) => {
+		return (
+			<div key={image}>
+				<img src={image} alt="Option" className="h-[10rem] w-[10rem] mt-0" />
+			</div>
+		);
+	});
 	return (
 		<div className="bg-primary-page-color p-2  max-w-6xl">
-			<Carousel responsive={responsive}>
-				{imagesList.map((image) => {
-					return (
-						<div key={image}>
-							<img
-								src={image}
-								alt="Option"
-								className="h-[10rem] w-[10rem] mt-0"
-							/>
-						</div>
-					);
-				})}
-			</Carousel>
+			<Carousel responsive={responsive}>{imageProducts}</Carousel>
 		</div>
 	);
 };
