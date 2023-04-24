@@ -24,8 +24,8 @@ const responsive = {
 export const MultiImageCouresel = () => {
 	const imageProducts = imagesList.map((image) => {
 		return (
-			<div key={image}>
-				<img src={image} alt="Option" className="h-[8rem] w-[8rem] mt-0" />
+			<div key={image} className="h-[8rem] w-[8rem]">
+				<img src={image} alt="Option" className="h-full w-full mt-0" />
 			</div>
 		);
 	});

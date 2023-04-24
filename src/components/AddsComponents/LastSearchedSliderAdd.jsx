@@ -3,7 +3,7 @@ import { AddsSalesTitle } from "../AddsSalesTitle";
 import AddsTopTitleDescription from "../AddsTopTitleDescription";
 import { ImagesSlidesAddsList } from "../SlidesImagesFlashDescription/ImagesSlidesAddsList";
 import { Icon } from "@iconify/react";
-import { flashSalesData } from "../../utils/FlashSalesDataAdds";
+import { lastSearched } from "../../utils/LastSearchedOptions";
 
 import { Button } from "../Button";
 export const LastSearchedSliderAdd = () => {
@@ -21,7 +21,7 @@ export const LastSearchedSliderAdd = () => {
 					</Button>
 				</AddsTopTitleDescription>
 				{/* Images sliders goes here */}
-				<ImagesSlidesAddsList images={flashSalesData} />
+				<ImagesSlidesAddsList images={lastSearched} />
 			</AddsSalesTitle>
 		</div>
 	);
