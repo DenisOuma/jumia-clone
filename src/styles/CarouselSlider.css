@@ -7,6 +7,6 @@ img {
 	cursor: pointer;
 	/* object-fit: cover; */
 }
-.react-multi-carousel-item {
-	/* width: 170px !important; */
+.image-border {
+	border-radius: 5px !important;
 }
