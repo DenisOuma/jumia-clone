@@ -23,8 +23,8 @@ export const CountdownTimer = () => {
 	const seconds = timeLeft % 60;
 	return (
 		<div>
-			<p>
-				Time Left: {hours.toString().padStart(2, "0")}h :{" "}
+			<p className="font-bold ml-2">
+				{hours.toString().padStart(2, "0")}h :{" "}
 				{minutes.toString().padStart(2, "0")}m :{" "}
 				{seconds.toString().padStart(2, "0")}s
 			</p>
