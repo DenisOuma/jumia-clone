@@ -39,8 +39,8 @@ export const ImagesSlidesAddsList = ({ images }) => {
                             "
 							>
 								<h3 className="text-sm">
-									{image.name.length > 25
-										? image.name.slice(0, 22) + "..."
+									{image.name.length > 20
+										? image.name.slice(0, 20) + "..."
 										: image.name}
 								</h3>
 

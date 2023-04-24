@@ -43,7 +43,7 @@ export const flashSalesData = [
 		id: 5,
 		image:
 			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/061997/1.jpg?4614",
-		name: 'Vitron 4368FS 43" ',
+		name: "4th Street 4th Street Sweet White - 750ml",
 		price: "Ksh 100",
 		cost: "Ksh 26,999",
 	},
