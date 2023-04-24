@@ -8,7 +8,11 @@ export const CategoryNavigationMenu = () => {
 		<CardBoarder className="bg-primary-page-color w-1/5">
 			{menuOptionsCategory.map((button) => {
 				return (
-					<Button key={button.btnName} primary className="text-xs pt-1">
+					<Button
+						key={button.btnName}
+						primary
+						className="text-primary-font-color text-xs pt-1"
+					>
 						<Icon
 							icon={button.iconName}
 							color="#313133"

@@ -9,7 +9,8 @@ export const CarouselSlider = ({ images }) => {
 				images={images}
 				thumb={false}
 				loop={true}
-				autoplay={20000}
+				autoplay={10000}
+				arrow={true}
 			/>
 		</div>
 	);

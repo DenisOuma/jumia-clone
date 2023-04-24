@@ -18,7 +18,7 @@ export const PrimeNavbar = () => {
 						<Input
 							inputType="text"
 							placeholder="Search products, brands and categories"
-							className="w-[32rem] pl-7 "
+							className="w-[33rem] pl-7 "
 						/>
 					</div>
 					<Button
