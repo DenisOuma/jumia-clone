@@ -15,7 +15,7 @@ function FlashSalesSliderAdd() {
 						<span className="ml-2">Flash Sales</span>
 					</div>
 					<CountdownTimer />
-					<Button className="uppercase">
+					<Button className="uppercase font-light">
 						See All
 						<Icon icon="material-symbols:chevron-right-rounded" height="25" />
 					</Button>

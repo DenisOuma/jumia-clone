@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export const CountdownTimer = () => {
 	const [timeLeft, setTimeLeft] = useState(5933); // in seconds
+	// This timer will always count down from a given time so as to display the flash sale end time
 
 	useEffect(() => {
 		let timer = setInterval(() => {
