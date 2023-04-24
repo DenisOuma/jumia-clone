@@ -24,7 +24,10 @@ const responsive = {
 export const MultiImageCouresel = () => {
 	const imageProducts = imagesList.map((image) => {
 		return (
-			<div key={image} className="h-[8rem] w-[8rem]">
+			<div
+				key={image}
+				className="h-[8rem] w-[8rem] overflow-hidden hover:shadow-lg cursor-pointer"
+			>
 				<img src={image} alt="Option" className="h-full w-full mt-0" />
 			</div>
 		);

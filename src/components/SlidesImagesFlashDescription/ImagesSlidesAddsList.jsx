@@ -27,7 +27,7 @@ export const ImagesSlidesAddsList = ({ images }) => {
 					return (
 						<div
 							key={image.id}
-							className="bg-primary-page-color w-[11.5rem]  m-2 rounded justify-center"
+							className="bg-primary-page-color w-[11.5rem]  m-2 rounded justify-center overflow-hidden hover:shadow-lg cursor-pointer"
 						>
 							<img
 								src={image.image}
