@@ -7,7 +7,7 @@ import { Button } from "../Button";
 
 export const PrimeNavbar = () => {
 	return (
-		<div className="bg-primary-page-color shadow-lg py-1">
+		<div id="navbar" className="bg-primary-page-color shadow-lg py-1">
 			<PageContainerPosition>
 				<Logo />
 				<div className="flex items-center">

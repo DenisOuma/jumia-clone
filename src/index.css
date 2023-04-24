@@ -29,3 +29,12 @@
 	height: inherit;
 	cursor: pointer;
 }
+
+#navbar {
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+.react-multiple-carousel__arrow {
+	z-index: 2 !important;
+}
