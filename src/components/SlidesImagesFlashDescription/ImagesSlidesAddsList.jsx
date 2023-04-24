@@ -38,8 +38,16 @@ export const ImagesSlidesAddsList = ({ images }) => {
 								className=" p-3
                             "
 							>
-								<h3>{image.name}</h3>
-								<p>{image.cost}</p>
+								<h3 className="text-sm">
+									{image.name.length > 25
+										? image.name.slice(0, 22) + "..."
+										: image.name}
+								</h3>
+
+								<h1>{image.price}</h1>
+								<p className="line-through text-xs text-gray-text-color font-bold">
+									{image.cost}
+								</p>
 							</div>
 						</div>
 					);
