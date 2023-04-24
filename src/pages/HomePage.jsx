@@ -6,6 +6,7 @@ import { CategoryNavigationMenu } from "../components/NavigationMenu/CategoryNav
 import { PageContainerPosition } from "../components/PageContainerPosition";
 import { HelpCenterCard } from "../components/sliders/HelpCenterCard";
 import { WelcomeSalesSlider } from "../components/sliders/WelcomeSalesSlider";
+import { StaticAddCard } from "../components/StaticAddComponets/StaticAddCard";
 
 export const HomePage = () => {
 	return (
@@ -23,6 +24,9 @@ export const HomePage = () => {
 			</PageContainerPosition>
 			<PageContainerPosition>
 				<FlashSalesSliderAdd />
+			</PageContainerPosition>
+			<PageContainerPosition>
+				<StaticAddCard />
 			</PageContainerPosition>
 		</div>
 	);
