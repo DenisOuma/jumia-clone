@@ -10,5 +10,4 @@ export const imagesList = [
 	"https://ke.jumia.is/cms/2023/W11/HP/TN/Skincare.png",
 	"https://ke.jumia.is/cms/2023/W11/HP/TN/Laptops.png",
 	"https://ke.jumia.is/cms/2023/W11/HP/TN/womens-clothing.png",
-	"https://ke.jumia.is/cms/2023/W11/HP/TN/induction-cookers.png",
 ];

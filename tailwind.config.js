@@ -10,6 +10,7 @@ module.exports = {
 				"primary-font-color": "#313133",
 				"gray-text-color": "#75757A",
 				"secondary-text-color": "#FF9900",
+				"danger-add-color": "#E61601",
 			},
 		},
 	},
