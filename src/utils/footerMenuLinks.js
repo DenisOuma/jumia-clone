@@ -42,3 +42,24 @@ export const countries = [
 	"Uganda",
 	"Zando",
 ];
+
+export const socilaMedia = [
+	{
+		link: "",
+		icon: "typcn:social-facebook",
+	},
+	{
+		link: "",
+		icon: "typcn:social-instagram",
+	},
+	{
+		link: "",
+		icon: "mdi:youtube",
+	},
+];
+export const paymentMethod = [
+	"game-icons:pay-money",
+	"bxl:visa",
+	"uim:master-card",
+	"cib:samsung-pay",
+];
