@@ -8,7 +8,7 @@ export const FooterDownLoadApp = () => {
 			<div className="flex items-center">
 				<img src={Logo} alt="" className="h-[2.5rem] w-[2.5rem]" />
 				<div className="ml-5 mt-5">
-					<h1 className="text-[.8rem]">DOWNLOAD JUMIA FREE APP</h1>
+					<h1 className="text-[.8rem] font-bold">DOWNLOAD JUMIA FREE APP</h1>
 					<p className="text-[.7rem]">Get access to exclusive offers!</p>
 				</div>
 			</div>
