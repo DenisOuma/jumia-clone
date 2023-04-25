@@ -11,10 +11,12 @@ export const Button = ({
 	const classes = className(
 		"flex text-[16px] hover:text-secondary-text-color  items-end py-2 font-[400]",
 		{
-			"bg-secondary-text-color text-white ml-[5px] px-4": search,
+			"bg-secondary-text-color text-white ml-[5px] px-4 hover:text-white ":
+				search,
 			" text-[16px]": primary,
-			"text-[13px] px-[1.5rem] ml-[.7rem] py-2 download-border": secondary,
-			"mr-3 rounded hover:text-secondary-text-color px-[.5rem] download-border py-[.1rem]":
+			"text-[13px] px-[1.5rem] ml-[.7rem] py-2 download-border text-[.8rem]":
+				secondary,
+			"mr-3 rounded hover:text-secondary-text-color  px-[.5rem] download-border py-[.1rem]":
 				download,
 		},
 		rest.className

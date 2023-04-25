@@ -13,6 +13,7 @@ module.exports = {
 				"danger-add-color": "#E61601",
 				"alcohol-theme-color": "#B177DA",
 				"food-pay-color": "#F1F1F2",
+				"footer-bg-color": "#535357",
 			},
 		},
 	},

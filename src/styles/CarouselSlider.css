@@ -42,7 +42,22 @@ img {
 }
 .download-border {
 	border: 1px solid #fff;
+	font-size: smaller;
 }
 .download-border:hover {
 	border: 1px solid #ff9900;
+	color: #ff9900;
+}
+.font-styling > h1 {
+	font-weight: 600;
+	font-size: small;
+	margin-bottom: 10px;
+}
+.links-texts {
+	font-size: 12px;
+	margin-top: 0.3rem;
+}
+.links-texts:hover {
+	text-decoration: underline;
+	cursor: pointer;
 }
