@@ -7,6 +7,7 @@ import { CategoryNavigationMenu } from "../components/NavigationMenu/CategoryNav
 import { PageContainerPosition } from "../components/PageContainerPosition";
 import { HelpCenterCard } from "../components/sliders/HelpCenterCard";
 import { WelcomeSalesSlider } from "../components/sliders/WelcomeSalesSlider";
+import { FashSalesOutfit } from "../components/StaticAddComponets/FashSalesOutfit";
 import { StaticAddCard } from "../components/StaticAddComponets/StaticAddCard";
 
 export const HomePage = () => {
@@ -31,6 +32,9 @@ export const HomePage = () => {
 			</PageContainerPosition>
 			<PageContainerPosition>
 				<AlcoholDrinkSliderAdd />
+			</PageContainerPosition>
+			<PageContainerPosition>
+				<FashSalesOutfit />
 			</PageContainerPosition>
 		</div>
 	);
