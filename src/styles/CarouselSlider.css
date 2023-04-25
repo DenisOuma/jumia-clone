@@ -40,3 +40,9 @@ img {
 	text-decoration: underline;
 	cursor: pointer;
 }
+.download-border {
+	border: 1px solid #fff;
+}
+.download-border:hover {
+	border: 1px solid #ff9900;
+}
