@@ -6,6 +6,7 @@ import { LastSearchedSliderAdd } from "../components/AddsComponents/LastSearched
 import { MultiImageCouresel } from "../components/MultiImageCouresel";
 import { CategoryNavigationMenu } from "../components/NavigationMenu/CategoryNavigationMenu";
 import { PageContainerPosition } from "../components/PageContainerPosition";
+import BottomSliderCard from "../components/sliders/BottomSliderCard";
 import { HelpCenterCard } from "../components/sliders/HelpCenterCard";
 import { WelcomeSalesSlider } from "../components/sliders/WelcomeSalesSlider";
 import { FashSalesOutfit } from "../components/StaticAddComponets/FashSalesOutfit";
@@ -39,6 +40,9 @@ export const HomePage = () => {
 			</PageContainerPosition>
 			<PageContainerPosition>
 				<ClearanceSalesAdd />
+			</PageContainerPosition>
+			<PageContainerPosition>
+				<BottomSliderCard />
 			</PageContainerPosition>
 		</div>
 	);
