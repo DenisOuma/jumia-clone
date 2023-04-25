@@ -3,6 +3,7 @@ import { AlcoholDrinkSliderAdd } from "../components/AddsComponents/AlcoholDrink
 import { ClearanceSalesAdd } from "../components/AddsComponents/ClearanceSalesAdd";
 import FlashSalesSliderAdd from "../components/AddsComponents/FlashSalesSliderAdd";
 import { LastSearchedSliderAdd } from "../components/AddsComponents/LastSearchedSliderAdd";
+import { AboutJumiaCard } from "../components/Footers/AboutJumiaCard";
 import { MultiImageCouresel } from "../components/MultiImageCouresel";
 import { CategoryNavigationMenu } from "../components/NavigationMenu/CategoryNavigationMenu";
 import { PageContainerPosition } from "../components/PageContainerPosition";
@@ -43,6 +44,9 @@ export const HomePage = () => {
 			</PageContainerPosition>
 			<PageContainerPosition>
 				<BottomSliderCard />
+			</PageContainerPosition>
+			<PageContainerPosition>
+				<AboutJumiaCard />
 			</PageContainerPosition>
 		</div>
 	);

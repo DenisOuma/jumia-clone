@@ -14,7 +14,7 @@ function BottomSliderCard() {
 				images={images}
 				autoplay={true}
 				width="1150px"
-				// height="400px"
+				height="400px"
 				autplayDelay={7000}
 				parallax={true}
 			/>

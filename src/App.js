@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { AddvertBarTop } from "./components/AddvertBarTop";
+import { FooterPrime } from "./components/Footers/FooterPrime";
 import { SellBuyFoodNavBar } from "./components/HomePageNavBar/SellBuyFoodNavBar";
 import { PrimeNavbar } from "./components/NavBar/PrimeNavbar";
 import { HomePage } from "./pages/HomePage";
@@ -14,6 +15,7 @@ function App() {
 					<Routes>
 						<Route exact path="/" element={<HomePage />} />
 					</Routes>
+					<FooterPrime />
 				</>
 			</Router>
 		</div>

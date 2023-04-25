@@ -25,6 +25,18 @@ img {
 	position: absolute;
 	background: 100% 5%;
 	background-size: contain;
-	border-radius: 4px !important;
+	border-radius: 5px !important;
 	background-repeat: no-repeat;
+}
+
+/* Footer section router */
+.footer-desc-text > p {
+	font-size: 11.5px;
+	color: #313133;
+	margin-top: 0.5rem;
+}
+.footer-desc-text > p > span {
+	font-weight: 600;
+	text-decoration: underline;
+	cursor: pointer;
 }
