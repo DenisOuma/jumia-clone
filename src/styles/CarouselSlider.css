@@ -10,3 +10,8 @@ img {
 	border-radius: 4px;
 	/* width: 100% !important; */
 }
+#essPrev,
+#essNext {
+	background-color: #313133;
+	color: rgb(255, 251, 245);
+}
