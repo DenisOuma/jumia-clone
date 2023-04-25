@@ -12,6 +12,19 @@ img {
 }
 #essPrev,
 #essNext {
-	background-color: #313133;
+	background-color: #31313379;
 	color: rgb(255, 251, 245);
+}
+._1E1nI {
+	object-fit: cover !important;
+}
+
+._2Y-TT {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: 100% 5%;
+	background-size: contain;
+	border-radius: 4px !important;
+	background-repeat: no-repeat;
 }
