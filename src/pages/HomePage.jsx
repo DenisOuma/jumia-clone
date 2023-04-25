@@ -1,5 +1,6 @@
 import React from "react";
 import { AlcoholDrinkSliderAdd } from "../components/AddsComponents/AlcoholDrinkSliderAdd";
+import { ClearanceSalesAdd } from "../components/AddsComponents/ClearanceSalesAdd";
 import FlashSalesSliderAdd from "../components/AddsComponents/FlashSalesSliderAdd";
 import { LastSearchedSliderAdd } from "../components/AddsComponents/LastSearchedSliderAdd";
 import { MultiImageCouresel } from "../components/MultiImageCouresel";
@@ -35,6 +36,9 @@ export const HomePage = () => {
 			</PageContainerPosition>
 			<PageContainerPosition>
 				<FashSalesOutfit />
+			</PageContainerPosition>
+			<PageContainerPosition>
+				<ClearanceSalesAdd />
 			</PageContainerPosition>
 		</div>
 	);

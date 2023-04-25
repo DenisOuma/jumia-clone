@@ -132,3 +132,71 @@ export const flashSalesAlcoholData = [
 		cost: "Ksh 2,051",
 	},
 ];
+
+// clearance Sales
+export const clearanceSales = [
+	{
+		id: 0,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/11/770846/1.jpg?0840",
+		name: "Elegant Milk Tea Vacuum Flask Coffee Pot Stainless Steel Flask -2L",
+		price: "Ksh 1,290",
+		cost: "2,000",
+	},
+	{
+		id: 1,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/20/570867/1.jpg?7609",
+		name: "Fashion Men's Gold Cross Necklace With Crystal Fashion Necklace",
+		price: "Ksh 120",
+		cost: "Ksh KSh 190",
+	},
+	{
+		id: 2,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/83/379835/1.jpg?4832",
+		name: "Car Accessories Car MP3 Player Multi-function BT5.1 FM Transmitter",
+		price: "Ksh 489",
+		cost: "Ksh 900",
+	},
+	{
+		id: 3,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/33/594827/1.jpg?2788",
+		name: "Generic Gaming Earphones Low Latency Bluetooth Headset",
+		price: "Ksh 740",
+		cost: "Ksh 1,451",
+	},
+	{
+		id: 4,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/62/043293/1.jpg?1147",
+		name: "Edifier X3 Wireless Headphone, Bluetooth 5.0 Headset Earpiece,Noise Cancelling,Touch Contro,IPX5 Waterproof",
+		price: "Ksh 2,250",
+		cost: "Ksh 3,510",
+	},
+	{
+		id: 5,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/69/904554/1.jpg?4074",
+		name: "Fashion Diamond Jewelry Engagement Wedding Ring Silver For Women",
+		price: "Ksh 236",
+		cost: "Ksh 463",
+	},
+	{
+		id: 6,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/96/460867/1.jpg?7597",
+		name: "Fashion Women's Heart Shaped Rhinestone Girls Fashion Necklace",
+		price: "Ksh 120",
+		cost: "Ksh 190",
+	},
+	{
+		id: 7,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/96/253668/1.jpg?7122",
+		name: "Generic Women Sexy One-Line Neck Ruffled Irregular Rope Belt Dress",
+		price: "Ksh 895",
+		cost: "Ksh 1,755",
+	},
+];
