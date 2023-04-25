@@ -64,3 +64,71 @@ export const flashSalesData = [
 		cost: "Ksh 44,999",
 	},
 ];
+
+// Alcohol Price
+
+export const flashSalesAlcoholData = [
+	{
+		id: 0,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/17/203629/1.jpg?1722",
+		name: "William Lawson's William Lawsons 750ml + 4 Horns",
+		price: "Ksh 1,545",
+	},
+	{
+		id: 1,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/283585/1.jpg?1937",
+		name: "Maybelline New York Fit Me Matte And Poreless Foundation - 330 Toffee - 18mlJameson Jameson Irish Whiskey - 750 Ml",
+		price: "Ksh 2,076",
+		cost: "Ksh KSh 2,359",
+	},
+	{
+		id: 2,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/02/193585/1.jpg?3243",
+		name: "Seagrams Seagrams Imperial Blue Whiskey - 750ml",
+		price: "Ksh 752",
+		cost: "Ksh 940",
+	},
+	{
+		id: 3,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/89/195594/1.jpg?4260",
+		name: "Chrome Chrome Vodka - 750 Ml",
+		price: "Ksh 545",
+		cost: "Ksh 630",
+	},
+	{
+		id: 4,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/23/295594/1.jpg?3394",
+		name: "Tusker Tusker Lager Can - 500ml - Pack of 6",
+		price: "Ksh 999",
+		cost: "Ksh 1,304",
+	},
+	{
+		id: 5,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/061997/1.jpg?4614",
+		name: "4th Street 4th Street Sweet White - 750ml",
+		price: "Ksh 100",
+		cost: "Ksh 99",
+	},
+	{
+		id: 6,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/40/295594/1.jpg?4268",
+		name: "Guinness Guinness Stout Can 500ml - Pack Of 6",
+		price: "Ksh 1,295",
+		cost: "Ksh 1,421",
+	},
+	{
+		id: 7,
+		image:
+			"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/78/471486/1.jpg?5405",
+		name: "Ballantine's Ballantine's Blended Scotch Whiskey - 750 Ml.",
+		price: "Ksh 1,641",
+		cost: "Ksh 2,051",
+	},
+];
