@@ -11,6 +11,7 @@ module.exports = {
 				"gray-text-color": "#75757A",
 				"secondary-text-color": "#FF9900",
 				"danger-add-color": "#E61601",
+				"alcohol-theme-color": "#B177DA",
 			},
 		},
 	},
