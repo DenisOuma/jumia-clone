@@ -15,7 +15,7 @@ function BottomSliderCard() {
 				autoplay={true}
 				width="1150px"
 				height="400px"
-				autplayDelay={6000}
+				autplayDelay={7000}
 				parallax={true}
 			/>
 		</div>
